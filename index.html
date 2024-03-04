@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/54c8c90fcc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Carta,Forbice e Sasso</title>
+</head>
+<body >
+     
+    <!-- Titolo -->
+    <header class="flex justify-center items-center">
+        <h1 class="font-bold text-[50px] drop-shadow-xl">Carta,Forbice e Sasso</h1>
+    </header>
+
+    <main>
+
+        <!-- Fai la tua scelta! -->
+        <section class="flex justify-center items-center">
+            <h2 class="font-bold text-[30px]">Fai la tua scelta!</h2>
+        </section>
+
+
+        <!-- Carta,Forbice o Sasso -->
+        <section class=" flex justify-center items-center">
+            
+            <div id="carta" class="hover:bg-yellow-400 h-[150px] w-[150px] border-[5px] border-black bg-white rounded-[40px] m-[20px]  flex justify-center items-center">
+                <button class="">
+                    <i class="fa-regular fa-hand text-[80px] hover:"></i>
+                </button>
+            </div>
+
+            <div id="forbice" class="hover:bg-yellow-400  h-[150px] w-[150px] border-[5px] border-black bg-white rounded-[40px] m-[30px] flex justify-center items-center">
+                <button>
+                    <i class="fa-regular fa-hand-scissors fa-rotate-90 text-[80px]"></i>
+                </button>
+            </div>
+
+            <div id="sasso" class="hover:bg-yellow-400  h-[150px] w-[150px] border-[5px] border-black bg-white rounded-[40px] m-[20px] flex justify-center items-center">
+                <button>
+                    <i class="fa-regular fa-hand-back-fist text-[80px]"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- lizard e spock -->
+        <section class=" flex justify-center items-center">
+
+            <div id="lizard" class="hover:bg-yellow-400  h-[150px] w-[150px] border-[5px] border-black bg-white rounded-[40px] m-[20px] flex justify-center items-center">
+                <button>
+                    <i class="fa-regular fa-hand-lizard text-[80px]"></i>
+                </button>
+            </div>
+
+            <div id="spock" class="hover:bg-yellow-400  h-[150px] w-[150px] border-[5px] border-black bg-white rounded-[40px] m-[20px] flex justify-center items-center">
+                <button>
+                    <i class="fa-regular fa-hand-spock text-[80px]"></i>
+                </button>
+            </div>
+
+            
+
+        </section>
+
+        <section id="result" class="flex justify-center items-center  text-[40px] font-bold">Risultato</section>
+
+
+    </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
